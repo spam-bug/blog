@@ -16,6 +16,7 @@ html {
 
 body {
   font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
