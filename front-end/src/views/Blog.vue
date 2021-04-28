@@ -1,27 +1,56 @@
 <template>
   <AppLayout>
     <div class="actions">
-      <m-button sample="default">Save to draft</m-button>
-      <m-button sample="default">Post</m-button>
+      <AppButton sample="default">Save to draft</AppButton>
+      <AppButton sample="default">Post</AppButton>
     </div>
 
     <form>
-      <m-input type="text" name="title" label="Title" placeholder="Enter title here..." />
+      <AppInput type="text" name="title" label="Title" placeholder="Enter title here..." />
+      <m-tags :tags="tags" />
     </form>
   </AppLayout>
 </template>
 
 <script>
 import AppLayout from "../layouts/AppLayout";
-import MButton from "../components/ui/MButton";
-import MInput from "../components/ui/MInput";
+import AppButton from "../components/ui/AppButton";
+import AppInput from "../components/ui/AppInput";
+import MTags from "../components/ui/MTags";
 
 export default {
   name: "Blog",
   components: {
     AppLayout,
-    MButton,
-    MInput
+    AppButton,
+    AppInput,
+    MTags
+  },
+  data() {
+    return {
+      tags: [
+        {
+          id: 1,
+          name: 'Sports'
+        },
+        {
+          id: 2,
+          name: 'News'
+        },
+        {
+          id: 3,
+          name: 'Editorial'
+        },
+        {
+          id: 4,
+          name: 'Weather'
+        },
+        {
+          id: 5,
+          name: 'Featured'
+        }
+      ]
+    }
   }
 }
 </script>

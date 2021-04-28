@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import AppHeader from "../components/AppHeader";
-import BlogSidebar from "../components/BlogSidebar";
+import AppHeader from "../components/layout/AppHeader";
+import BlogSidebar from "../components/blog/Sidebar";
 
 export default {
   name: "AppLayout",
