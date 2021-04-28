@@ -15,5 +15,35 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Project Structure
+```
+--public/
+----favicon.ico
+----index.html
+
+--src/
+----assets/
+--------logo.png
+----components/
+--------blog/
+------------BlogSidebar.vue
+------------BlogSidebarMenu.vue
+------------BlogThumbnail.vue
+------------BlogTagList.vue
+------------BlogTagListItem.vue 
+--------ui/
+------------AppButton.vue
+------------AppInput.vue
+------------AppTextArea.vue
+------------AppLogo.vue
+------------SmallButton.vue
+--------shared/
+------------ActiveUser.vue
+------------ActiveUserItem.vue
+------------MessageList.vue
+------------MessageLitItem.vue
+------------NotificationList.vue
+------------NotificationListItem.vue 
+```
+
