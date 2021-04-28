@@ -1,12 +1,12 @@
 <template>
-  <button :class="['btn', 'btn-' + type]"><slot/></button>
+  <button :class="['btn', 'btn-' + sample]"><slot/></button>
 </template>
 
 <script>
 export default {
-  name: "button",
+  name: "m-button",
   props: {
-    type: String
+    sample: String
   }
 }
 </script>
