@@ -1,10 +1,10 @@
 <template>
-  <button :class="['btn', 'btn-' + sample]"><slot/></button>
+  <button :class="['button', 'button--' + sample]"><slot/></button>
 </template>
 
 <script>
 export default {
-  name: "m-button",
+  name: "AppButton",
   props: {
     sample: String
   }
@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style scoped>
-.btn {
+.button {
   padding: .7em 2em;
   min-width: 120px;
   border: 1px solid transparent;
@@ -20,17 +20,17 @@ export default {
   cursor: pointer;
 }
 
-.btn:focus {
+.button:focus {
   outline: none;
 }
 
-.btn-default {
+.button--default {
   color: #707070;
   background: white;
   border-color: #C4C4C4;
 }
 
-.btn-default:active {
+.button--default:active {
   color: white;
   background: #15B1F6;
   border-color: #15B1F6;

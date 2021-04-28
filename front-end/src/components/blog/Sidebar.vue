@@ -1,19 +1,19 @@
 <template>
   <aside>
     <button>Create new blog</button>
-    <BlogSidebarMenu/>
+    <SidebarMenu/>
     <ActiveUser/>
   </aside>
 </template>
 
 <script>
-import BlogSidebarMenu from "./BlogSidebarMenu";
-import ActiveUser from "./ActiveUser";
+import SidebarMenu from "./SidebarMenu";
+import ActiveUser from "../ActiveUser";
 
 export default {
-  name: "BlogSidebar",
+  name: "Sidebar",
   components: {
-    BlogSidebarMenu,
+    SidebarMenu,
     ActiveUser
   }
 }

@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: "m-input",
+  name: "AppInput",
   props: {
     label: String,
     type: String,

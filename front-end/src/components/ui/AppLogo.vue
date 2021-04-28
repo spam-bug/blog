@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/logo.png" alt="The Guilds Logo">
+    <img src="../../assets/logo.png" alt="The Guilds Logo">
   </div>
 </template>
 

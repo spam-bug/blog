@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import AppLogo from "./AppLogo";
+import AppLogo from "../ui/AppLogo";
 
 export default {
   name: "AppHeader",
