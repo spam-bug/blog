@@ -20,6 +20,11 @@ export default {
 </script>
 
 <style scoped>
+aside {
+  width: 150px;
+  position: absolute;
+}
+
 button {
   font-size: 1.4rem;
   color: white;

@@ -3,6 +3,9 @@
     <AppHeader/>
     <section>
       <BlogSidebar/>
+      <main>
+        <slot/>
+      </main>
     </section>
   </div>
 </template>
@@ -29,7 +32,12 @@ export default {
 
 section {
   width: 100%;
-  padding: 50px 350px;
+  padding: 50px 250px;
   position: relative;
+}
+
+main {
+  margin-left: 200px;
+  width: 800px;
 }
 </style>

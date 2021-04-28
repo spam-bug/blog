@@ -16,7 +16,6 @@ export default {
 
 <style scoped>
 .menu {
-  width: 140px;
   display: block;
   padding: 20px 0;
   border-bottom: 1px solid #C4C4C4;
