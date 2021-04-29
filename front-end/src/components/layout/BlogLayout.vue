@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import AppHeader from "../components/layout/AppHeader";
-import BlogSidebar from "../components/blog/BlogSidebar";
+import AppHeader from "./AppHeader";
+import BlogSidebar from "../blog/BlogSidebar";
 
 export default {
-  name: "AppLayout",
+  name: "BlogLayout",
   components: {
     AppHeader,
     BlogSidebar

@@ -1,5 +1,5 @@
 <template>
-  <AppLayout>
+  <BlogLayout>
     <div class="actions">
       <AppButton sample="default">Save to draft</AppButton>
       <AppButton sample="default">Post</AppButton>
@@ -9,11 +9,11 @@
       <AppInput type="text" name="title" label="Title" placeholder="Enter title here..." />
       <BlogTag />
     </form>
-  </AppLayout>
+  </BlogLayout>
 </template>
 
 <script>
-import AppLayout from "../layouts/AppLayout";
+import BlogLayout from "../components/layout/BlogLayout";
 import AppButton from "../components/ui/AppButton";
 import AppInput from "../components/ui/AppInput";
 import BlogTag from "../components/blog/BlogTag";
@@ -21,7 +21,7 @@ import BlogTag from "../components/blog/BlogTag";
 export default {
   name: "Blog",
   components: {
-    AppLayout,
+    BlogLayout,
     AppButton,
     AppInput,
     BlogTag
