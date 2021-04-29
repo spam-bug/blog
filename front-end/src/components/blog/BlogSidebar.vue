@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import SidebarMenu from "./SidebarMenu";
+import SidebarMenu from "./BlogSidebarMenu";
 import ActiveUser from "../ActiveUser";
 
 export default {
-  name: "Sidebar",
+  name: "BlogSidebar",
   components: {
     SidebarMenu,
     ActiveUser

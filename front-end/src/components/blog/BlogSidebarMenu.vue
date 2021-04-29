@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "SidebarMenu"
+  name: "BlogSidebarMenu"
 }
 </script>
 

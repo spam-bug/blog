@@ -12,7 +12,7 @@
 
 <script>
 import AppHeader from "../components/layout/AppHeader";
-import BlogSidebar from "../components/blog/Sidebar";
+import BlogSidebar from "../components/blog/BlogSidebar";
 
 export default {
   name: "AppLayout",
