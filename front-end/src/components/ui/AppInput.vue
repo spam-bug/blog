@@ -1,11 +1,13 @@
 <template>
   <div>
-    <label>{{ (label) ? label : 'Label' }}</label>
+    <AppLabel :label="label" />
     <input :type="type" :name="name" :placeholder="placeholder">
   </div>
 </template>
 
 <script>
+import AppLabel from "./AppLabel";
+
 export default {
   name: "AppInput",
   props: {
@@ -13,6 +15,9 @@ export default {
     type: String,
     name: String,
     placeholder: String
+  },
+  components: {
+    AppLabel
   }
 }
 </script>
@@ -20,12 +25,6 @@ export default {
 <style scoped>
 div {
   margin: 10px 0px;
-}
-
-label {
-  display: block;
-  font-size: 1.4rem;
-  font-weight: 600;
 }
 
 input {
