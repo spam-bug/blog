@@ -39,5 +39,7 @@ section {
 main {
   margin-left: 200px;
   width: 800px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 </style>

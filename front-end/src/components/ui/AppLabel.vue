@@ -16,5 +16,7 @@ label {
   display: block;
   font-size: 1.4rem;
   font-weight: 600;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 </style>
