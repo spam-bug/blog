@@ -7,7 +7,7 @@
 
     <form>
       <AppInput type="text" name="title" label="Title" placeholder="Enter title here..." />
-      <m-tags :tags="tags" />
+      <BlogTag />
     </form>
   </AppLayout>
 </template>
@@ -16,7 +16,7 @@
 import AppLayout from "../layouts/AppLayout";
 import AppButton from "../components/ui/AppButton";
 import AppInput from "../components/ui/AppInput";
-import MTags from "../components/ui/MTags";
+import BlogTag from "../components/blog/BlogTag";
 
 export default {
   name: "Blog",
@@ -24,33 +24,7 @@ export default {
     AppLayout,
     AppButton,
     AppInput,
-    MTags
-  },
-  data() {
-    return {
-      tags: [
-        {
-          id: 1,
-          name: 'Sports'
-        },
-        {
-          id: 2,
-          name: 'News'
-        },
-        {
-          id: 3,
-          name: 'Editorial'
-        },
-        {
-          id: 4,
-          name: 'Weather'
-        },
-        {
-          id: 5,
-          name: 'Featured'
-        }
-      ]
-    }
+    BlogTag
   }
 }
 </script>
