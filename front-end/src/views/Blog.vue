@@ -5,9 +5,10 @@
       <AppButton sample="default">Post</AppButton>
     </div>
 
-    <form>
+    <form v-on:submit.prevent>
       <AppInput type="text" name="title" label="Title" placeholder="Enter title here..." />
       <BlogTag />
+      <BlogThumbnail />
     </form>
   </BlogLayout>
 </template>
@@ -17,6 +18,7 @@ import BlogLayout from "../components/layout/BlogLayout";
 import AppButton from "../components/ui/AppButton";
 import AppInput from "../components/ui/AppInput";
 import BlogTag from "../components/blog/BlogTag";
+import BlogThumbnail from "../components/blog/BlogThumbnail";
 
 export default {
   name: "Blog",
@@ -24,7 +26,8 @@ export default {
     BlogLayout,
     AppButton,
     AppInput,
-    BlogTag
+    BlogTag,
+    BlogThumbnail
   }
 }
 </script>
