@@ -1,6 +1,9 @@
 <template>
   <div class="tags">
-    <BlogTagListItem @select-tag="selectTag" :selectedTag="selectedTag" v-for="tag in tags" :key="tag.id" :tag="tag" />
+    <BlogTagListItem @select-tag="selectTag"
+                     :selectedTag="selectedTag"
+                     v-for="tag in tags" :key="tag.id"
+                     :tag="tag" />
   </div>
 </template>
 
