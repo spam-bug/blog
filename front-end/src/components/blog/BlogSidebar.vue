@@ -22,7 +22,7 @@ export default {
 <style scoped>
 aside {
   width: 150px;
-  position: absolute;
+  position: fixed;
 }
 
 button {
