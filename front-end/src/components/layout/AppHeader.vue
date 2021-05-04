@@ -26,13 +26,12 @@ export default {
 <style scoped>
 header {
   width: 100%;
-  height: 80px;
   padding: 15px 50px;
   background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*box-shadow: 0 3px 6px 0 rgba(0,0,0,0.25);*/
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.25);
 }
 
 .brand {

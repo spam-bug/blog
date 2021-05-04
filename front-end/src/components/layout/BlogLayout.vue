@@ -26,21 +26,18 @@ export default {
 <style scoped>
 .wrapper {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: #F1F3FC;
-  overflow: hidden;
 }
 
 section {
   width: 100%;
-  height: calc(100% - 80px);
   padding: 50px 250px;
   position: relative;
-  overflow-y: auto;
 }
 
 main {
-  margin-left: 20%;
+  margin-left: 200px;
   width: 800px;
   user-select: none;
   -webkit-user-drag: none;
